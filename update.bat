@@ -1,16 +1,18 @@
 @echo off
-chcp 65001 >nul
 cd /d "%~dp0"
 
-echo Обновление репозитория в папке %cd%...
+echo Updating repository in %cd%...
 git pull --ff-only
 
-if errorlevel 1 (
-    echo.
-    echo Не удалось обновить репозиторий.
-) else (
-    echo.
-    echo Готово!
-)
+if errorlevel 1 goto error
 
+echo.
+echo Done!
+goto end
+
+:error
+echo.
+echo Failed to update the repository.
+
+:end
 pause
