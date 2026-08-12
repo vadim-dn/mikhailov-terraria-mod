@@ -1,0 +1,19 @@
+# Build results
+bin/
+obj/
+
+# IDE settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# tModLoader packages and logs
+*.tmod
+*.log
+.tml-test/
+
+# Operating system files
+.DS_Store
+Thumbs.db
