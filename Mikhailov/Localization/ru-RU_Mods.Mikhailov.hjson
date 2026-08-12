@@ -1,0 +1,81 @@
+Projectiles: {
+	// TearBottle.DisplayName: Tear Bottle
+	// ScrewProjectile.DisplayName: Screw Projectile
+	// RailSlug.DisplayName: Rail Slug
+	// RailShard.DisplayName: Rail Shard
+	// PipeShockwave.DisplayName: Pipe Shockwave
+	// GopArrowProjectile.DisplayName: Gop Arrow Projectile
+	// FirePool.DisplayName: Fire Pool
+	// AkBullet.DisplayName: Ak Bullet
+	// ChargedWeaponHoldout.DisplayName: Charged Weapon Holdout
+	// ElectricArc.DisplayName: Electric Arc
+	// MagicBurstController.DisplayName: Magic Burst Controller
+	// PipeWaterJet.DisplayName: Pipe Water Jet
+	// PoisonShard.DisplayName: Poison Shard
+	// WaterSlash.DisplayName: Water Slash
+	// FireArc.DisplayName: Fire Arc
+	// FireNova.DisplayName: Fire Nova
+	// FireSnake.DisplayName: Fire Snake
+	// FireSpirit.DisplayName: Fire Spirit
+	// GreenTornado.DisplayName: Green Tornado
+	// LivingFireBottle.DisplayName: Living Fire Bottle
+	// PipeHoldout.DisplayName: Pipe Holdout
+	// ScrewTurretHoldout.DisplayName: Screw Turret Holdout
+	// WaterBurst.DisplayName: Water Burst
+}
+
+Items: {
+	Screwdriver: {
+		Tooltip:
+			'''
+			ЛКМ: ускоряющиеся спиральные шурупы
+			Удерживай ПКМ: турель с электрической цепью
+			'''
+		DisplayName: Шуруповёрт
+	}
+
+	RailBorer: {
+		Tooltip:
+			'''
+			ЛКМ: тяжёлый рельс с сильной отдачей
+			Удерживай ПКМ: заряд сине-белого взрывного луча
+			'''
+		DisplayName: Рельсобой
+	}
+
+	MikhailovTear: {
+		Tooltip:
+			'''
+			ЛКМ: бутылка выпускает самонаводящегося огненного змея
+			ПКМ: призывает живого огненного духа; повторный бросок усиливает его
+			'''
+		DisplayName: Бутылка «Михайловская Слеза»
+	}
+
+	MikhailovskyAK: {
+		Tooltip:
+			'''
+			ЛКМ: автоматический огонь с трассерами
+			ПКМ: трёхцветная магическая очередь со взрывом
+			'''
+		DisplayName: Михайловский АК
+	}
+
+	HeatingPipe: {
+		Tooltip:
+			'''
+			ЛКМ: быстрое комбо с водяными выплесками
+			Удерживай ПКМ: напорная струя воды
+			'''
+		DisplayName: Труба отопления
+	}
+
+	GopArrow: {
+		Tooltip:
+			'''
+			ЛКМ: ядовитая стрела, разделяющаяся на осколки
+			Удерживай ПКМ: многоцветный заряженный выстрел
+			'''
+		DisplayName: Гоп-Стрела
+	}
+}
