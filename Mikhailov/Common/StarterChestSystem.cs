@@ -131,7 +131,7 @@ public sealed class StarterChestSystem : ModSystem
     private static void FillModChest(Chest chest)
     {
         chest.name = "Арсенал Михайлова";
-        int[] items = { ModContent.ItemType<MikhailovskyAK>(), ModContent.ItemType<HeatingPipe>(), ModContent.ItemType<GopArrow>(), ModContent.ItemType<MikhailovTear>(), ModContent.ItemType<RailBorer>(), ModContent.ItemType<Screwdriver>(), ModContent.ItemType<MikhailovRoot>() };
+        int[] items = { ModContent.ItemType<MikhailovskyAK>(), ModContent.ItemType<HeatingPipe>(), ModContent.ItemType<GopArrow>(), ModContent.ItemType<MikhailovTear>(), ModContent.ItemType<RailBorer>(), ModContent.ItemType<Screwdriver>(), ModContent.ItemType<MikhailovRoot>(), ModContent.ItemType<ColdTecLight>() };
         for (int i = 0; i < items.Length; i++) chest.item[i].SetDefaults(items[i]);
     }
 

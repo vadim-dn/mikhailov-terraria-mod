@@ -26,6 +26,9 @@ Projectiles: {
 	RootCrescent.DisplayName: Root Crescent
 	RootGrowth.DisplayName: Root Growth
 	RootLeaf.DisplayName: Root Leaf
+	ColdTecPulse.DisplayName: Cold TEC Pulse
+	ColdTecImpact.DisplayName: Cold TEC Impact
+	ColdTecPrism.DisplayName: Cold TEC Prism
 }
 
 Items: {
@@ -67,5 +70,16 @@ Items: {
 	GopArrow: {
 		Tooltip: ""
 		DisplayName: Gop Arrow
+	}
+
+	ColdTecLight: {
+		DisplayName: Cold Light of the CHP Plant
+		Tooltip:
+			'''
+			Left click: a pulse bounces off walls and powers up four times
+			Right click: a magnetic prism attracts and refracts pulses
+			Hits slow enemies
+			Uses no mana
+			'''
 	}
 }

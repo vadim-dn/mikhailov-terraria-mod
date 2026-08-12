@@ -26,6 +26,9 @@ Projectiles: {
 	// RootCrescent.DisplayName: Root Crescent
 	// RootGrowth.DisplayName: Root Growth
 	// RootLeaf.DisplayName: Root Leaf
+	// ColdTecPulse.DisplayName: Cold TEC Pulse
+	// ColdTecImpact.DisplayName: Cold TEC Impact
+	// ColdTecPrism.DisplayName: Cold TEC Prism
 }
 
 Items: {
@@ -91,5 +94,16 @@ Items: {
 			Удерживай ПКМ: многоцветный заряженный выстрел
 			'''
 		DisplayName: Гоп-Стрела
+	}
+
+	ColdTecLight: {
+		DisplayName: Холодный свет ТЭЦ
+		Tooltip:
+			'''
+			ЛКМ: импульс отражается от стен и усиливается до четырёх раз
+			ПКМ: магнитная призма притягивает и преломляет импульсы
+			Попадания замедляют врагов
+			Не расходует ману
+			'''
 	}
 }
