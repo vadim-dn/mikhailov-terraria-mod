@@ -22,9 +22,23 @@ Projectiles: {
 	PipeHoldout.DisplayName: Pipe Holdout
 	ScrewTurretHoldout.DisplayName: Screw Turret Holdout
 	WaterBurst.DisplayName: Water Burst
+	RootBolt.DisplayName: Root Bolt
+	RootCrescent.DisplayName: Root Crescent
+	RootGrowth.DisplayName: Root Growth
+	RootLeaf.DisplayName: Root Leaf
 }
 
 Items: {
+	MikhailovRoot: {
+		DisplayName: Mikhailov's Root
+		Tooltip:
+			'''
+			Left click: a three-shot combo of rapid green pulses
+			Right click: a wide wave that knocks enemies back and releases homing leaves
+			Uses no mana
+			'''
+	}
+
 	Screwdriver: {
 		Tooltip: ""
 		DisplayName: Screwdriver

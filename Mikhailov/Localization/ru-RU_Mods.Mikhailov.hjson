@@ -22,9 +22,23 @@ Projectiles: {
 	// PipeHoldout.DisplayName: Pipe Holdout
 	// ScrewTurretHoldout.DisplayName: Screw Turret Holdout
 	// WaterBurst.DisplayName: Water Burst
+	// RootBolt.DisplayName: Root Bolt
+	// RootCrescent.DisplayName: Root Crescent
+	// RootGrowth.DisplayName: Root Growth
+	// RootLeaf.DisplayName: Root Leaf
 }
 
 Items: {
+	MikhailovRoot: {
+		DisplayName: Корень Михайлова
+		Tooltip:
+			'''
+			ЛКМ: серия из трёх быстрых зелёных импульсов
+			ПКМ: широкая волна, отбрасывающая врагов и выпускающая самонаводящиеся листья
+			Не расходует ману
+			'''
+	}
+
 	Screwdriver: {
 		Tooltip:
 			'''
