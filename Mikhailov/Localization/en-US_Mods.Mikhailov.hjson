@@ -29,9 +29,23 @@ Projectiles: {
 	ColdTecPulse.DisplayName: Cold TEC Pulse
 	ColdTecImpact.DisplayName: Cold TEC Impact
 	ColdTecPrism.DisplayName: Cold TEC Prism
+	ChargedManholeCoverProjectile.DisplayName: Charged Manhole Cover Projectile
+	ManholeCoverChargeHoldout.DisplayName: Manhole Cover Charge Holdout
+	ManholeCoverProjectile.DisplayName: Manhole Cover Projectile
 }
 
 Items: {
+	ManholeCover: {
+		DisplayName: Manhole Cover
+		Tooltip:
+			'''
+			Left click: a blazing-fast throw that vanishes after five wall ricochets
+			Hold right click: charge a homing throw that strikes multiple targets
+			Charged hits pull nearby enemies toward the impact
+			With no targets, the charged cover ricochets off walls five times
+			'''
+	}
+
 	MikhailovRoot: {
 		DisplayName: Mikhailov's Root
 		Tooltip:

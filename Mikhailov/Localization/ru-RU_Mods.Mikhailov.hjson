@@ -29,9 +29,23 @@ Projectiles: {
 	// ColdTecPulse.DisplayName: Cold TEC Pulse
 	// ColdTecImpact.DisplayName: Cold TEC Impact
 	// ColdTecPrism.DisplayName: Cold TEC Prism
+	// ChargedManholeCoverProjectile.DisplayName: Charged Manhole Cover Projectile
+	// ManholeCoverChargeHoldout.DisplayName: Manhole Cover Charge Holdout
+	// ManholeCoverProjectile.DisplayName: Manhole Cover Projectile
 }
 
 Items: {
+	ManholeCover: {
+		DisplayName: Крышка от люка
+		Tooltip:
+			'''
+			ЛКМ: стремительный бросок, исчезающий после пяти рикошетов от стен
+			Удерживай ПКМ: заряженный самонаводящийся бросок по нескольким целям
+			Попадания заряженной крышки притягивают ближайших врагов
+			Если целей нет, заряженная крышка рикошетит от стен пять раз
+			'''
+	}
+
 	MikhailovRoot: {
 		DisplayName: Корень Михайлова
 		Tooltip:
