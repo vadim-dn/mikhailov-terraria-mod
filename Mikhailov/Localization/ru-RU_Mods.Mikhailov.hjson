@@ -32,6 +32,9 @@ Projectiles: {
 	// ChargedManholeCoverProjectile.DisplayName: Charged Manhole Cover Projectile
 	// ManholeCoverChargeHoldout.DisplayName: Manhole Cover Charge Holdout
 	// ManholeCoverProjectile.DisplayName: Manhole Cover Projectile
+	// PudgeDismemberVisual.DisplayName: Pudge Dismember Visual
+	// PudgeHook.DisplayName: Pudge Hook
+	// PudgeRotAura.DisplayName: Pudge Rot Aura
 }
 
 Items: {
@@ -119,5 +122,62 @@ Items: {
 			Попадания замедляют врагов
 			Не расходует ману
 			'''
+	}
+
+	PudgeMask: {
+		DisplayName: Маска Pudge
+		Tooltip: Часть комплекта Pudge
+		SetBonus: Открывает способности Hook [Z], Rot [X] и Dismember [C]
+	}
+
+	PudgeBody: {
+		DisplayName: Тело Pudge
+		Tooltip: Часть комплекта Pudge
+	}
+
+	PudgeLegs: {
+		DisplayName: Поножи Pudge
+		Tooltip: Часть комплекта Pudge
+	}
+}
+
+Keybinds: {
+	PudgeHook.DisplayName: Pudge: Hook
+	PudgeRot.DisplayName: Pudge: Rot
+	PudgeDismember.DisplayName: Pudge: Dismember
+}
+
+Buffs: {
+	HookCooldownBuff: {
+		DisplayName: Перезарядка Hook
+		Description: Hook пока недоступен
+	}
+
+	DismemberCooldownBuff: {
+		DisplayName: Перезарядка Dismember
+		Description: Dismember пока недоступен
+	}
+
+	RotActiveBuff: {
+		DisplayName: Rot
+		Description: Ядовитое облако наносит урон ближайшим врагам
+	}
+
+	RotSlowBuff: {
+		DisplayName: Гниение
+		Description: Скорость передвижения снижена
+	}
+}
+
+Common.PudgeDisabled: Отключено в конфигурации мода
+
+Configs: {
+	MikhailovServerConfig: {
+		DisplayName: Настройки сервера «Михайлов»
+
+		EnablePudgeContent: {
+			Label: Включить контент Pudge
+			Tooltip: Требует перезагрузки мира; отключает комплект, способности и выдачу в стартовом сундуке
+		}
 	}
 }

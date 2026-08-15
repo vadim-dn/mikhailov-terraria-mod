@@ -32,6 +32,9 @@ Projectiles: {
 	ChargedManholeCoverProjectile.DisplayName: Charged Manhole Cover Projectile
 	ManholeCoverChargeHoldout.DisplayName: Manhole Cover Charge Holdout
 	ManholeCoverProjectile.DisplayName: Manhole Cover Projectile
+	PudgeDismemberVisual.DisplayName: Pudge Dismember Visual
+	PudgeHook.DisplayName: Pudge Hook
+	PudgeRotAura.DisplayName: Pudge Rot Aura
 }
 
 Items: {
@@ -95,5 +98,62 @@ Items: {
 			Hits slow enemies
 			Uses no mana
 			'''
+	}
+
+	PudgeMask: {
+		DisplayName: Pudge Mask
+		Tooltip: Part of the Pudge armor set
+		SetBonus: Unlocks Hook [Z], Rot [X], and Dismember [C]
+	}
+
+	PudgeBody: {
+		DisplayName: Pudge Body
+		Tooltip: Part of the Pudge armor set
+	}
+
+	PudgeLegs: {
+		DisplayName: Pudge Leggings
+		Tooltip: Part of the Pudge armor set
+	}
+}
+
+Keybinds: {
+	PudgeHook.DisplayName: Pudge: Hook
+	PudgeRot.DisplayName: Pudge: Rot
+	PudgeDismember.DisplayName: Pudge: Dismember
+}
+
+Buffs: {
+	HookCooldownBuff: {
+		DisplayName: Hook Cooldown
+		Description: Hook is not ready yet
+	}
+
+	DismemberCooldownBuff: {
+		DisplayName: Dismember Cooldown
+		Description: Dismember is not ready yet
+	}
+
+	RotActiveBuff: {
+		DisplayName: Rot
+		Description: A toxic cloud damages nearby enemies
+	}
+
+	RotSlowBuff: {
+		DisplayName: Rot
+		Description: Movement speed is reduced
+	}
+}
+
+Common.PudgeDisabled: Disabled in the mod configuration
+
+Configs: {
+	MikhailovServerConfig: {
+		DisplayName: Mikhailov Server Settings
+
+		EnablePudgeContent: {
+			Label: Enable Pudge content
+			Tooltip: Requires a world reload; disables the armor, abilities, and starter chest distribution
+		}
 	}
 }

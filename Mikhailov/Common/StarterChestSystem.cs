@@ -1,5 +1,7 @@
 using System.IO;
 using Mikhailov.Content.Items.Weapons;
+using Mikhailov.Content.Items.Armor;
+using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -131,8 +133,14 @@ public sealed class StarterChestSystem : ModSystem
     private static void FillModChest(Chest chest)
     {
         chest.name = "Арсенал Михайлова";
-        int[] items = { ModContent.ItemType<MikhailovskyAK>(), ModContent.ItemType<HeatingPipe>(), ModContent.ItemType<GopArrow>(), ModContent.ItemType<MikhailovTear>(), ModContent.ItemType<RailBorer>(), ModContent.ItemType<Screwdriver>(), ModContent.ItemType<MikhailovRoot>(), ModContent.ItemType<ColdTecLight>(), ModContent.ItemType<ManholeCover>() };
-        for (int i = 0; i < items.Length; i++) chest.item[i].SetDefaults(items[i]);
+        List<int> items = new() { ModContent.ItemType<MikhailovskyAK>(), ModContent.ItemType<HeatingPipe>(), ModContent.ItemType<GopArrow>(), ModContent.ItemType<MikhailovTear>(), ModContent.ItemType<RailBorer>(), ModContent.ItemType<Screwdriver>(), ModContent.ItemType<MikhailovRoot>(), ModContent.ItemType<ColdTecLight>(), ModContent.ItemType<ManholeCover>() };
+        if (ModContent.GetInstance<MikhailovServerConfig>().EnablePudgeContent)
+        {
+            items.Add(ModContent.ItemType<PudgeMask>());
+            items.Add(ModContent.ItemType<PudgeBody>());
+            items.Add(ModContent.ItemType<PudgeLegs>());
+        }
+        for (int i = 0; i < items.Count; i++) chest.item[i].SetDefaults(items[i]);
     }
 
     private static void FillVanillaChest(Chest chest)
